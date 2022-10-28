@@ -1,0 +1,76 @@
+.header__container
+    display: flex
+    justify-content: space-around
+    padding: 25px 64px
+    border-bottom: solid 1px #8A8A8A
+    &__left
+        display: flex
+        width: 336px
+        justify-content: space-between
+        align-items: center
+    &__nav
+        list-style-type: none
+        display: flex
+        font-weight: 600
+        justify-content: space-between
+        width: 190px
+    &__right
+        display: flex
+        width: 636px
+        justify-content: space-between
+        align-items: center
+        position: relative
+        &-glass
+            position: absolute
+            top: 11px
+            left: 16px
+        &-socials
+            display: flex
+            width: 184px
+            justify-content: space-between
+            padding-right: 38px
+            height: 22px
+            border-right: 1px solid #8A8A8A
+        &-langs
+            display: flex
+            width: 66px
+            justify-content: space-around
+            align-items: center
+            font-size: 14px
+            line-height: 17px
+        &-search
+            width: 272px
+            height: 37px
+            padding: 11px 16px 11px 46px
+            background: #F7F7F7
+            border-radius: 68px
+            border: none
+        &-right
+            width: 326px
+            display: flex
+            justify-content: space-around
+    &__menu
+        line-height: 19px
+        background: #F7F7F7
+        position: relative
+        padding: 8px 12px
+        width: 106px
+        height: 35px
+        text-align: right
+        border-radius: 4px
+        &::before
+            content: ""
+            height: 2px
+            background-color: black
+            width: 18px
+            position: absolute
+            left: 12px
+            top: 14px
+        &::after
+            content: ""
+            height: 2px
+            background-color: black
+            width: 13px
+            position: absolute
+            left: 12px
+            top: 20px
