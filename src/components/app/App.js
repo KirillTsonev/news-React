@@ -1,10 +1,10 @@
 import './App.sass';
-import Header from "../header/Header"
+import HeaderTop from "../headerTop/HeaderTop"
 
 function App() {
   return (
     <div className='container'>
-      <Header></Header>
+      <HeaderTop></HeaderTop>
     </div>
   );
 }

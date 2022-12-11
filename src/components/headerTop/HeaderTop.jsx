@@ -4,9 +4,9 @@ import youtube from "../../icons/YouTube.svg"
 import telegram from "../../icons/Telegram.svg"
 import glass from "../../icons/MagnifyingGlass.svg"
 
-import "./header.sass"
+import "./headerTop.sass"
 
-const Header = () => {
+const HeaderTop = () => {
 	return (
 		<div className="header__container">
 			<div className="header__container__left">
@@ -28,10 +28,10 @@ const Header = () => {
 				<div>
 					<div className="header__container__right-right">
 						<div className="header__container__right-socials">
-							<a href="#"><img src={telegram} alt="telegram" /></a>
-							<a href="#"><img src={facebook} alt="facebook" /></a>
-							<a href="#"><img src={instagram} alt="instagram" /></a>
-							<a href="#"><img src={youtube} alt="youtube" /></a>
+							<a href="https://telegram.org/" target="_blank" rel="noreferrer"><img src={telegram} alt="telegram" /></a>
+							<a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src={facebook} alt="facebook" /></a>
+							<a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src={instagram} alt="instagram" /></a>
+							<a href="https://www.youtube.com/" target="_blank" rel="noreferrer"><img src={youtube} alt="youtube" /></a>
 						</div>
 
 						<div className="header__container__right-langs">
@@ -45,4 +45,4 @@ const Header = () => {
 	)
 }
 
-export default Header
+export default HeaderTop
