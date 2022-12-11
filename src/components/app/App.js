@@ -3,6 +3,7 @@ import HeaderTop from "../headerTop/HeaderTop";
 import HeaderMiddle from '../headerMiddle/HeaderMiddle';
 import HeaderBottom from '../headerBottom/HeaderBottom';
 import BigPic from '../bigPic/BigPic';
+import Grid from '../grid/Grid';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HeaderMiddle></HeaderMiddle>
       <HeaderBottom></HeaderBottom>
       <BigPic></BigPic>
+      <Grid></Grid>
     </div>
   );
 }

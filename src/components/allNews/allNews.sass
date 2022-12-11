@@ -1,0 +1,111 @@
+.allNewsContainer
+    width: 304px
+    border-radius: 12px
+    padding: 16px 16px 24px 16px
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    // height: 1495px
+    background: white
+    &__header
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 272px
+        &-left
+            font-size: 24px
+            font-weight: 600
+        &-right
+            font-size: 14px
+            font-weight: 600
+            border-bottom: 2px solid #000
+            cursor: pointer
+    &__nav
+        display: flex
+        justify-content: space-between
+        width: 200px
+        margin-top: 32px
+        color: #919191
+        align-items: center
+        div
+            cursor: pointer
+    &__cards
+        margin-top: 32px
+        height: 1175px
+        &-outer
+            overflow: hidden
+        &-item
+            line-height: 22px
+            border-bottom: 1px solid #EBEBEB
+            padding-bottom: 24px
+            margin-top: 24px
+            cursor: pointer
+        &-time
+            font-size: 14px
+            color: #707070
+            margin-right: 10px
+        &-photo
+            margin-bottom: 16px
+            font-size: 14px
+            line-height: 20px
+            color: #979EA9
+            font-weight: 600
+            padding-left: 28px
+            position: relative
+            &::before
+                content: ""
+                position: absolute
+                width: 16px
+                height: 16px
+                top: 0
+                left: 0
+                background: url("../../icons/camera.png")
+        &-urgent
+            position: relative
+            margin-bottom: 16px
+            color: #FF7534
+            font-weight: 600
+            font-size: 14px
+            line-height: 20px
+            padding-left: 28px
+            &::before
+                content: ""
+                position: absolute
+                width: 18px
+                height: 22px
+                top: 0
+                left: 0
+                background: url("../../icons/Fire.svg")
+    &__button
+        line-height: 22px
+        padding: 9px 0 6px 15px
+        text-align: center
+        border: 1px solid #979EA9
+        border-radius: 4px
+        width: 272px
+        position: relative
+        cursor: pointer
+        margin-top: 32px
+        &::before
+            content: ""
+            position: absolute
+            width: 20px
+            height: 20px
+            background: url("../../icons/more.png")
+            left: 53px
+        &::after
+            content: ""
+            position: absolute
+            background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 100%)
+            z-index: 1
+            width: 272px
+            height: 150px
+            bottom: calc(100% + 1px)
+            left: 0
+
+.activeNav
+    padding: 4px 8px 2px 8px
+    background: #FFEAE0
+    color: #FF7534
+    border-radius: 4px
+    line-height: 28px
