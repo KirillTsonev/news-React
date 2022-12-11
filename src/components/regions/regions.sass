@@ -1,0 +1,52 @@
+.regionsContainer
+    &__header
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &-heading 
+            font-size: 32px
+            font-weight: 700
+        &-link 
+            text-decoration: none
+            color: #FF7534
+    &__grid
+        margin-top: 32px
+        display: grid
+        grid-template: 691px / 315px 315px 315px
+        column-gap: 16px
+        &__item 
+            padding: 16px 16px 32px 16px
+            background: white
+            border-radius: 12px
+            position: relative
+            &-heading
+                font-size: 24px
+                font-weight: 600
+            &-date 
+                margin-top: 24px
+                color: #F3560C
+                font-size: 12px
+                font-weight: 400
+                text-transform: uppercase
+                margin-bottom: 12px
+            &-txt 
+                padding-bottom: 16px
+                margin-bottom: 16px
+                border-bottom: 1px solid #EBEBEB
+                cursor: pointer
+            &-time 
+                font-size: 14px
+                color: #707070
+                margin-right: 10px
+            &-more 
+                position: absolute
+                bottom: 32px
+                cursor: pointer
+                &::after
+                    content: ""
+                    position: absolute
+                    width: 32px
+                    height: 32px
+                    background: url("../../icons/moreArrow.png")
+                    right: -48px
+                    top: calc(50% - 16px)
