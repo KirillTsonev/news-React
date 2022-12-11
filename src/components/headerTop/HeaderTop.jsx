@@ -35,8 +35,8 @@ const HeaderTop = () => {
 						</div>
 
 						<div className="headerContainerTop__right-langs">
-							<div style={{"color": "#2D2D2D"}}>RU</div>
-							<div style={{"color": "#B0B0B0"}}>UA</div>
+							<div style={{"color": "#2D2D2D"}}>UA</div>
+							<div style={{"color": "#B0B0B0"}}>RU</div>
 						</div>
 					</div>
 				</div>
