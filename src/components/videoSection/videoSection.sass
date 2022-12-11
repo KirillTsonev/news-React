@@ -1,0 +1,58 @@
+.videoSectionContainer
+    background: url("../../img/videobg.jpg") center center / cover no-repeat
+    &__overlay
+        background: rgba(0, 0, 0, 0.6)
+        width: 100%
+        height: 100%
+        padding: 56px 64px 112px 64px
+    &__header
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &-heading
+            color: white
+            font-size: 32px
+            font-weight: 700
+        &-more
+            position: relative
+            color: white
+            cursor: pointer
+            line-height: 22px
+            font-weight: 500
+            margin-right: 60px
+            &::after
+                content: ""
+                position: absolute
+                width: 32px
+                height: 32px
+                background: url("../../icons/moreArrowWhite.png")
+                right: -48px
+                top: calc(50% - 16px)
+    &__grid
+        margin-top: 25px
+        display: grid
+        grid-template: 260px 260px / 640px 304px 304px
+        gap: 32px
+        &__main
+            &-img 
+                position: relative
+                cursor: pointer
+                &::after
+                    position: absolute
+                    content: ""
+                    width: 40px
+                    height: 40px
+                    left: 16px
+                    bottom: 16px
+                    background: url("../../icons/play.png")
+            &-date 
+                font-size: 12px
+                font-weight: 400
+                color: white
+                margin-top: 32px
+            &-heading 
+                margin-top: 24px
+                font-size: 32px
+                font-weight: 600
+                color: white
+                line-height: 42px

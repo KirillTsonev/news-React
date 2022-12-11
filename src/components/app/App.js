@@ -4,6 +4,7 @@ import HeaderMiddle from '../headerMiddle/HeaderMiddle';
 import HeaderBottom from '../headerBottom/HeaderBottom';
 import BigPic from '../bigPic/BigPic';
 import Grid from '../grid/Grid';
+import VideoSection from '../videoSection/VideoSection';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <HeaderBottom></HeaderBottom>
       <BigPic></BigPic>
       <Grid></Grid>
+      <VideoSection></VideoSection>
     </div>
   );
 }
