@@ -46,7 +46,7 @@ const Regions = () => {
                         Дружина Зеленського чесно зізналася, чи боїться смерті</div>
                     <div className="regionsContainer__grid__item-txt">
                         <span className="regionsContainer__grid__item-time">14:59</span>
-                        Ремонт зруйнованого російськими ракетами будинку у Сергіївці коштуватиме понад 40 млн гривень</div>
+                        КМДА контролюватиме якість підготовки до опалювального сезону</div>
                     <div className="regionsContainer__grid__item-more">Більше новин</div>
                 </div>
                 <div className="regionsContainer__grid__item">
