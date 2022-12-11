@@ -17,9 +17,9 @@ const BigPic = () => {
             <div className="bigPicContainer__overlay">
                 <div className="bigPicContainer__heading">Андрій Єрмак: «В нас інші прізвища, ніж у творців Мінських угод. Людей, які б таке допускали, в нашій<br></br> команді немає»</div>
                 <div className="bigPicContainer__arrows">
-                    <img src={left} alt="Left" />
+                    <img src={left} alt="Left" className="bigPicContainer__arrows-img"/>
                     <div className="bigPicContainer__counter">1 / 4</div>
-                    <img src={right} alt="Right" />
+                    <img src={right} alt="Right" className="bigPicContainer__arrows-img"/>
                 </div>
                 <div className="bigPicContainer__cardRow">
                     <div className="bigPicContainer__cardRow__item activeCard">
