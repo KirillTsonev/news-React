@@ -8,33 +8,33 @@ import "./headerTop.sass"
 
 const HeaderTop = () => {
 	return (
-		<div className="header__container">
-			<div className="header__container__left">
-				<div className="header__container__menu">Меню</div>
+		<div className="headerContainerTop">
+			<div className="headerContainerTop__left">
+				<div className="headerContainerTop__menu">Меню</div>
 
-				<ul className="header__container__nav">
+				<ul className="headerContainerTop__nav">
 					<li>Київ</li>
 					<li>Одеса</li>
 					<li>Харків</li>
 				</ul>
 			</div>
 
-			<div className="header__container__right">
+			<div className="headerContainerTop__right">
 				<div>
-					<img src={glass} alt="glass" className="header__container__right-glass"/>
-					<input className="header__container__right-search" type="text" name="search" placeholder="пошук новин"/>
+					<img src={glass} alt="glass" className="headerContainerTop__right-glass"/>
+					<input className="headerContainerTop__right-search" type="text" name="search" placeholder="пошук новин"/>
 				</div>
 
 				<div>
-					<div className="header__container__right-right">
-						<div className="header__container__right-socials">
+					<div className="headerContainerTop__right-right">
+						<div className="headerContainerTop__right-socials">
 							<a href="https://telegram.org/" target="_blank" rel="noreferrer"><img src={telegram} alt="telegram" /></a>
 							<a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src={facebook} alt="facebook" /></a>
 							<a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src={instagram} alt="instagram" /></a>
 							<a href="https://www.youtube.com/" target="_blank" rel="noreferrer"><img src={youtube} alt="youtube" /></a>
 						</div>
 
-						<div className="header__container__right-langs">
+						<div className="headerContainerTop__right-langs">
 							<div style={{"color": "#2D2D2D"}}>RU</div>
 							<div style={{"color": "#B0B0B0"}}>UA</div>
 						</div>

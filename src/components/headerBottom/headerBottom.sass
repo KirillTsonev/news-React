@@ -1,0 +1,46 @@
+.headerContainerBottom
+    color: white
+    font-size: 14px
+    padding: 8px 64px
+    background: #121B30
+    display: flex
+    &__days
+        font-weight: 600
+        position: relative
+        width: 400px
+        line-height: 20px
+        &::after
+            content: ""
+            position: absolute
+            height: 20px
+            width: 100px
+            top: 0
+            right: -100px
+            background: linear-gradient(90deg, rgba(18,27,48,1) 0%, rgba(0,0,0,0) 100%)
+            z-index: 1
+    &__running
+        &-outer 
+            overflow: hidden
+        &-inner
+            width: 200vw
+            // background: #121B30
+            display: flex
+            justify-content: space-around
+        &-item 
+            margin-right: 40px
+            display: flex
+            line-height: 20px
+            span
+                color: #FF7534
+                font-weight: 400
+        &-img 
+            margin-right: 16px
+            
+@keyframes run
+    0%
+        //
+    100%
+        transform: translateX(-50%)
+
+.run
+    animation: run infinite 20s linear
