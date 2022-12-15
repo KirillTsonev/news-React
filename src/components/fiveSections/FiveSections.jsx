@@ -70,18 +70,18 @@ const FiveSections = () => {
                             <div className="fiveSectionsContainer__blocks__politics__grid__mainCard">
                                 <img src={card} alt="card" className="fiveSectionsContainer__blocks__politics__grid__mainCard-img"/>
                                 <div className="fiveSectionsContainer__blocks__politics__grid__mainCard-date">05 серпня 11:00</div>
-                                <div className="fiveSectionsContainer__blocks__politics__grid__mainCard-desc">У "Слузі" пояснили, чому в росії знову заговорили про переговори з Україною.</div>
+                                <div className="fiveSectionsContainer__blocks__politics__grid__mainCard-desc">У "Слузі" пояснили, чому в росії знову заговорили про переговори з Україною</div>
                             </div>
                             <div className="fiveSectionsContainer__blocks__politics__grid__twoCards">
-                                <div className="fiveSectionsContainer__blocks__politics__grid__cardMini">
-                                    <img src={card} alt="card" className="fiveSectionsContainer__blocks__politics__grid__cardMini-img"/>
-                                    <div className="fiveSectionsContainer__blocks__politics__grid__cardMini-date">05 серпня 11:00</div>
-                                    <div className="fiveSectionsContainer__blocks__politics__grid__cardMini-desc">У "Слузі" пояснили, чому в росії знову заговорили про переговори з Україною.</div>
+                                <div className="fiveSectionsContainer__blocks__politics__grid__twoCards__cardMini">
+                                    <img src={card} alt="card" className="fiveSectionsContainer__blocks__politics__grid__twoCards__cardMini-img"/>
+                                    <div className="fiveSectionsContainer__blocks__politics__grid__twoCards__cardMini-date">05 серпня 11:00</div>
+                                    <div className="fiveSectionsContainer__blocks__politics__grid__twoCards__cardMini-desc">У "Слузі" пояснили, чому в росії знову заговорили про переговори з Україною</div>
                                 </div>
-                                <div className="fiveSectionsContainer__blocks__politics__grid__cardMini">
-                                    <img src={card} alt="card" className="fiveSectionsContainer__blocks__politics__grid__cardMini-img"/>
-                                    <div className="fiveSectionsContainer__blocks__politics__grid__cardMini-date">05 серпня 11:00</div>
-                                    <div className="fiveSectionsContainer__blocks__politics__grid__cardMini-desc">ТРЦ Ocean Plaza після чуток про закриття оголосив про відновлення роботи</div>
+                                <div className="fiveSectionsContainer__blocks__politics__grid__twoCards__cardMini">
+                                    <img src={card} alt="card" className="fiveSectionsContainer__blocks__politics__grid__twoCards__cardMini-img"/>
+                                    <div className="fiveSectionsContainer__blocks__politics__grid__twoCards__cardMini-date">05 серпня 11:00</div>
+                                    <div className="fiveSectionsContainer__blocks__politics__grid__twoCards__cardMini-desc">ТРЦ Ocean Plaza після чуток про закриття оголосив про відновлення роботи</div>
                                 </div>
                             </div>
                         </div>
