@@ -1,4 +1,5 @@
 import "./fiveSections.sass"
+import avatar1 from "../../icons/Avatar1.png"
 
 const FiveSections = () => {
     return (
@@ -10,7 +11,7 @@ const FiveSections = () => {
                 </div>
                 <div className="fiveSectionsContainer__column__item">
                     <div className="fiveSectionsContainer__column__item-header">
-                        <img src="" alt="" className="fiveSectionsContainer__column__item-img"/>
+                        <img src={avatar1} alt="avatar1" className="fiveSectionsContainer__column__item-img"/>
                         <div className="fiveSectionsContainer__column__item-heading">
                             <div className="fiveSectionsContainer__column__item-name">Юлія Стахівська</div>
                             <div className="fiveSectionsContainer__column__item-title">письменниця</div>
