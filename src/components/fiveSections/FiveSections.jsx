@@ -86,7 +86,22 @@ const FiveSections = () => {
                             </div>
                         </div>
                         <div className="fiveSectionsContainer__blocks__politics__grid__columnTwo">
-
+                            <div className="fiveSectionsContainer__blocks__politics__grid__columnTwo-heading">Новини розділу</div>
+                            <div className="fiveSectionsContainer__blocks__politics__grid__columnTwo-news">
+                                <div className="fiveSectionsContainer__blocks__politics__grid__columnTwo-urgent">Термінова новина</div>
+                                <div className="fiveSectionsContainer__blocks__politics__grid__columnTwo-desc"><span className="fiveSectionsContainer__blocks__politics__grid__columnTwo-time">14:59</span>
+                                До Європи за захистом. Що означає позов Ахметова до Європейського суду з прав людини</div>
+                                <div className="fiveSectionsContainer__blocks__politics__grid__columnTwo-desc"><span className="fiveSectionsContainer__blocks__politics__grid__columnTwo-time">14:59</span>
+                                Стало відомо, коли ЄС може узгодити сьомий пакет санкцій проти рф</div>
+                                <div className="fiveSectionsContainer__blocks__politics__grid__columnTwo-video">Новина з відео</div>
+                                <div className="fiveSectionsContainer__blocks__politics__grid__columnTwo-desc"><span className="fiveSectionsContainer__blocks__politics__grid__columnTwo-time">14:59</span>
+                                До Європи за захистом. Що означає позов Ахметова до Європейського суду з прав людини</div>
+                                <div className="fiveSectionsContainer__blocks__politics__grid__columnTwo-desc"><span className="fiveSectionsContainer__blocks__politics__grid__columnTwo-time">14:59</span>
+                                "Відбудова України — завдання усього світу": промова Зеленського на конференції в Лугано</div>
+                                <div className="fiveSectionsContainer__blocks__politics__grid__columnTwo-desc"><span className="fiveSectionsContainer__blocks__politics__grid__columnTwo-time">14:59</span>
+                                "Бийся на світлій стороні": як спортсмени, меценати й волонетри рятують життя українців</div>
+                            </div>
+                            <div className="fiveSectionsContainer__blocks__politics__grid__columnTwo-more">Більше</div>
                         </div>
                     </div>
                 </div>
