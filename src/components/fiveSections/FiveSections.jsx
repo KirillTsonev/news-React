@@ -3,6 +3,7 @@ import avatar1 from "../../icons/Avatar1.png"
 import avatar2 from "../../icons/Avatar2.png"
 import avatar3 from "../../icons/Avatar3.png"
 import avatar4 from "../../icons/Avatar4.png"
+import card from "../../img/card.png"
 
 const FiveSections = () => {
     return (
@@ -64,12 +65,28 @@ const FiveSections = () => {
                         <div className="fiveSectionsContainer__blocks__politics-heading">Політика</div>
                         <div className="fiveSectionsContainer__blocks__politics-all">Всі новини розділу</div>
                     </div>
-                    <div className="fiveSectionsContainer__blocks__politics-grid">
-                        <div>
-
+                    <div className="fiveSectionsContainer__blocks__politics__grid">
+                        <div className="fiveSectionsContainer__blocks__politics__grid-columnOne">
+                            <div className="fiveSectionsContainer__blocks__politics__grid__mainCard">
+                                <img src={card} alt="card" className="fiveSectionsContainer__blocks__politics__grid__mainCard-img"/>
+                                <div className="fiveSectionsContainer__blocks__politics__grid__mainCard-date">05 серпня 11:00</div>
+                                <div className="fiveSectionsContainer__blocks__politics__grid__mainCard-desc">У "Слузі" пояснили, чому в росії знову заговорили про переговори з Україною.</div>
+                            </div>
+                            <div className="fiveSectionsContainer__blocks__politics__grid__twoCards">
+                                <div className="fiveSectionsContainer__blocks__politics__grid__cardMini">
+                                    <img src={card} alt="card" className="fiveSectionsContainer__blocks__politics__grid__cardMini-img"/>
+                                    <div className="fiveSectionsContainer__blocks__politics__grid__cardMini-date">05 серпня 11:00</div>
+                                    <div className="fiveSectionsContainer__blocks__politics__grid__cardMini-desc">У "Слузі" пояснили, чому в росії знову заговорили про переговори з Україною.</div>
+                                </div>
+                                <div className="fiveSectionsContainer__blocks__politics__grid__cardMini">
+                                    <img src={card} alt="card" className="fiveSectionsContainer__blocks__politics__grid__cardMini-img"/>
+                                    <div className="fiveSectionsContainer__blocks__politics__grid__cardMini-date">05 серпня 11:00</div>
+                                    <div className="fiveSectionsContainer__blocks__politics__grid__cardMini-desc">ТРЦ Ocean Plaza після чуток про закриття оголосив про відновлення роботи</div>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            
+                        <div className="fiveSectionsContainer__blocks__politics__grid__columnTwo">
+
                         </div>
                     </div>
                 </div>
