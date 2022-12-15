@@ -1,7 +1,10 @@
 .fiveSectionsContainer
     padding: 32px 64px 64px 64px
-    display: flex
+    display: grid
+    grid-template: auto / 304px 976px
     background: #F6F6F6
+    justify-content: center
+    column-gap: 32px
     &__column
         background: white
         width: 304px
@@ -21,6 +24,7 @@
                 color: #FF7534
                 font-size: 14px
                 line-height: 20px
+                font-weight: 600
         &__item
             cursor: pointer
             padding: 24px 0
@@ -58,3 +62,24 @@
             text-align: center
             line-height: 22px
             padding: 9px 0
+    &__blocks
+        &__politics
+            padding: 24px 32px 32px 32px
+            border-radius: 12px
+            background: white
+            &-header
+                display: flex
+                justify-content: space-between
+                align-items: center
+            &-heading
+                font-size: 32px
+                font-weight: 700
+                line-height: 42px
+            &-all
+                cursor: pointer
+                color: #FF7534
+                font-weight: 600
+                font-size: 14px
+                line-height: 20px
+            &-grid
+                margin-top: 32px

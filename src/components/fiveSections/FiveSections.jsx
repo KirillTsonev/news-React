@@ -59,7 +59,20 @@ const FiveSections = () => {
                 <div className="fiveSectionsContainer__column__button">Всі колонки</div>
             </div>
             <div className="fiveSectionsContainer__blocks">
+                <div className="fiveSectionsContainer__blocks__politics">
+                    <div className="fiveSectionsContainer__blocks__politics-header">
+                        <div className="fiveSectionsContainer__blocks__politics-heading">Політика</div>
+                        <div className="fiveSectionsContainer__blocks__politics-all">Всі новини розділу</div>
+                    </div>
+                    <div className="fiveSectionsContainer__blocks__politics-grid">
+                        <div>
 
+                        </div>
+                        <div>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
