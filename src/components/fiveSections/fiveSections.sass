@@ -88,6 +88,8 @@
             grid-template: auto / 640px 240px
             justify-content: space-between
             &__mainCard
+                &-header
+                    display: flex
                 &-img
                     cursor: pointer
                 &-date
@@ -97,6 +99,22 @@
                     color: #707070
                     text-transform: uppercase
                     margin-top: 16px
+                &-interview
+                    font-weight: 600
+                    font-size: 14px
+                    color: #979EA9
+                    line-height: 20px
+                    margin-top: 14px
+                    padding-left: 28px
+                    margin-left: 16px
+                    position: relative
+                    &::before
+                        content: ""
+                        background: url("../../icons/interview.png")
+                        position: absolute
+                        width: 16px
+                        height: 16px
+                        left: 0
                 &-desc
                     cursor: pointer
                     font-weight: 600
@@ -173,6 +191,22 @@
                         top: 2px
                 &-bold
                     font-weight: 600
+                &-exclusive
+                    font-weight: 600
+                    color: #FF7534
+                    font-size: 14px
+                    padding-left: 28px
+                    position: relative
+                    line-height: 20px
+                    margin-top: 24px
+                    &::before
+                        content: ""
+                        position: absolute
+                        background: url("../../icons/exclusive.png")
+                        width: 18px
+                        height: 18px
+                        left: 0
+                        top: 2px
                 &-online
                     font-size: 14px
                     font-weight: 600
