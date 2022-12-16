@@ -1,5 +1,6 @@
 import Column from "./Column"
 import Politics from "./Politics"
+import Promo from "../promo/Promo"
 import Economics from "./Economics"
 import Lifestyle from "./Lifestyle"
 
@@ -11,6 +12,7 @@ const FiveSections = () => {
             <Column></Column>
             <div>
                 <Politics></Politics>
+                <Promo></Promo>
                 <Economics></Economics>
                 <Lifestyle></Lifestyle>
             </div>

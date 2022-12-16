@@ -1,0 +1,94 @@
+.promoContainer
+    border-radius: 12px
+    background: white
+    padding: 24px 32px 32px 32px
+    margin-bottom: 24px
+    position: relative
+    &__header
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &-heading
+            font-weight: 700
+            font-size: 32px
+            line-height: 42px
+        &-all
+            cursor: pointer
+            font-size: 14px
+            font-weight: 600
+            line-height: 20px
+            color: #FF7534
+    &__ad
+        &__main
+            margin-top: 24px
+            display: flex
+            &-text
+                margin-left: 32px
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+            &-header
+                align-items: center
+                display: flex
+            &-date
+                font-weight: 400
+                font-size: 12px
+                line-height: 16px
+                color: #707070
+                margin-right: 16px
+                text-transform: uppercase
+            &-promo
+                padding-left: 28px
+                font-weight: 600
+                font-size: 14px
+                line-height: 20px
+                color: #979EA9
+                position: relative
+                &::before
+                    content: ""
+                    background: url("../../icons/promo.png") center center / cover no-repeat
+                    position: absolute
+                    width: 16px
+                    height: 16px
+                    left: 0
+                    top: 2px
+            &-desc
+                font-size: 32px
+                font-weight: 600
+                line-height: 42px
+                width: 510px
+                cursor: pointer
+        &__cards
+            margin-top: 24px
+            overflow: hidden
+            &__inner
+                display: flex
+                width: 1008px
+            &__item
+                cursor: pointer
+                width: 304px
+                padding: 16px
+                background: #F6F6F6
+                margin-right: 32px
+                border-radius: 8px
+                &-date
+                    font-size: 12px
+                    text-transform: uppercase
+                    font-weight: 400
+                    line-height: 16px
+                    color: #707070
+                &-desc
+                    margin-top: 10px
+                    line-height: 22px
+    &__more
+        position: absolute
+        right: 32px
+        bottom: 32px
+        width: 165px
+        height: 105px
+        background: linear-gradient(270deg, #FFFFFF 45%, rgba(255, 255, 255, 0))
+        &-arrow
+            cursor: pointer
+            position: absolute
+            right: 8px
+            top: 28px
