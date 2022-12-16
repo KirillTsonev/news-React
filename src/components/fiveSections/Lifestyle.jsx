@@ -1,8 +1,8 @@
 import card from "../../img/card.png"
 
-const Politics = () => {
+const Lifestyle = () => {
     return (
-        <div>
+        <div className="fiveSectionsContainer__blocks">
             <div className="fiveSectionsContainer__block">
                 <div className="fiveSectionsContainer__block-header">
                     <div className="fiveSectionsContainer__block-heading">Політика</div>
@@ -31,11 +31,9 @@ const Politics = () => {
                     <div className="fiveSectionsContainer__block__grid__columnTwo">
                         <div className="fiveSectionsContainer__block__grid__columnTwo-heading">Новини розділу</div>
                         <div className="fiveSectionsContainer__block__grid__columnTwo-news">
-                            <div className="fiveSectionsContainer__block__grid__columnTwo-bold">
-                                <div className="fiveSectionsContainer__block__grid__columnTwo-urgent">Термінова новина</div>
-                                <div className="fiveSectionsContainer__block__grid__columnTwo-desc"><span className="fiveSectionsContainer__block__grid__columnTwo-time">14:59</span>
-                                До Європи за захистом. Що означає позов Ахметова до Європейського суду з прав людини</div>
-                            </div>
+                            <div className="fiveSectionsContainer__block__grid__columnTwo-urgent">Термінова новина</div>
+                            <div className="fiveSectionsContainer__block__grid__columnTwo-desc"><span className="fiveSectionsContainer__block__grid__columnTwo-time">14:59</span>
+                            До Європи за захистом. Що означає позов Ахметова до Європейського суду з прав людини</div>
                             <div className="fiveSectionsContainer__block__grid__columnTwo-desc"><span className="fiveSectionsContainer__block__grid__columnTwo-time">14:59</span>
                             Стало відомо, коли ЄС може узгодити сьомий пакет санкцій проти рф</div>
                             <div className="fiveSectionsContainer__block__grid__columnTwo-video">Новина з відео</div>
@@ -54,4 +52,4 @@ const Politics = () => {
     )
 }
 
-export default Politics
+export default Lifestyle
