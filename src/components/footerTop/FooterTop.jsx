@@ -54,13 +54,40 @@ const FooterTop = () => {
                 </ul>
             </div>
             <div className="footerTopContainer__column">
-
+                <ul className="footerTopContainer__column__item">
+                    <li className="footerTopContainer__column__item-listHeader">Регіони</li>
+                    <li className="footerTopContainer__column__item-listItem">Київ</li>
+                    <li className="footerTopContainer__column__item-listItem">Одеса</li>
+                    <li className="footerTopContainer__column__item-listItem">Харків</li>
+                    <li className="footerTopContainer__column__item-listItem">Львів</li>
+                </ul>
+                <ul className="footerTopContainer__column__item">
+                    <li className="footerTopContainer__column__item-listHeader">Техно</li>
+                    <li className="footerTopContainer__column__item-listItem">Наука</li>
+                    <li className="footerTopContainer__column__item-listItem">Гаджети</li>
+                    <li className="footerTopContainer__column__item-listItem">ІТ</li>
+                    <li className="footerTopContainer__column__item-listItem">Космос</li>
+                </ul>
             </div>
             <div className="footerTopContainer__column">
-
+                <ul className="footerTopContainer__column__item">
+                    <li className="footerTopContainer__column__item-listHeader">Економіка</li>
+                    <li className="footerTopContainer__column__item-listItem">Фінанси</li>
+                    <li className="footerTopContainer__column__item-listItem">Комунальні послуги</li>
+                    <li className="footerTopContainer__column__item-listItem">Бізнес</li>
+                </ul>
+                <ul className="footerTopContainer__column__item">
+                    <li className="footerTopContainer__column__item-listHeader">Спорт</li>
+                </ul>
             </div>
             <div className="footerTopContainer__column">
-
+                <ul className="footerTopContainer__column__item">
+                    <li className="footerTopContainer__column__item-nav">Про нас</li>
+                    <li className="footerTopContainer__column__item-nav">Контакти</li>
+                    <li className="footerTopContainer__column__item-nav">Структура власності</li>
+                    <li className="footerTopContainer__column__item-nav">Команда</li>
+                    <li className="footerTopContainer__column__item-nav">Медіакіт</li>
+                </ul>
             </div>
         </div>
     )
