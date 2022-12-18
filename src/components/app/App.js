@@ -7,6 +7,7 @@ import Grid from '../grid/Grid';
 import VideoSection from '../videoSection/VideoSection';
 import FiveSections from '../fiveSections/FiveSections';
 import FooterTop from '../footerTop/FooterTop';
+import FooterMiddle from '../footerMiddle/FooterMiddle';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <VideoSection></VideoSection>
       <FiveSections></FiveSections>
       <FooterTop></FooterTop>
+      <FooterMiddle></FooterMiddle>
     </div>
   );
 }
