@@ -8,6 +8,7 @@ import VideoSection from '../videoSection/VideoSection';
 import FiveSections from '../fiveSections/FiveSections';
 import FooterTop from '../footerTop/FooterTop';
 import FooterMiddle from '../footerMiddle/FooterMiddle';
+import FooterBottom from '../footerBottom/FooterBottom';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <FiveSections></FiveSections>
       <FooterTop></FooterTop>
       <FooterMiddle></FooterMiddle>
+      <FooterBottom></FooterBottom>
     </div>
   );
 }
