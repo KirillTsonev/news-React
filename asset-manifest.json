@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/news-React/static/css/main.669dd9bf.css",
+    "main.js": "/news-React/static/js/main.c155cd71.js",
+    "static/media/lifestyleCard.png": "/news-React/static/media/lifestyleCard.40e2f45e6fbe9a620cc2.png",
+    "static/media/card.png": "/news-React/static/media/card.ab0ffb89af045a38ad20.png",
+    "static/media/img.jpg": "/news-React/static/media/img.99f466b6cffc0665646f.jpg",
+    "static/media/videobg.jpg": "/news-React/static/media/videobg.669e55566a45b0e72c37.jpg",
+    "static/media/card1.png": "/news-React/static/media/card1.aca985d8626bced8ca49.png",
+    "static/media/card3.png": "/news-React/static/media/card3.1f60821d4f911ae4090f.png",
+    "static/media/ad.png": "/news-React/static/media/ad.64c256e4145006819cfc.png",
+    "static/media/card2.png": "/news-React/static/media/card2.8ac641f509daf0a925d1.png",
+    "static/media/card4.png": "/news-React/static/media/card4.639f2e94f7bd4a67b494.png",
+    "static/media/icon4.png": "/news-React/static/media/icon4.9b28c906594948e6f19d.png",
+    "static/media/Instagram.svg": "/news-React/static/media/Instagram.943fe6c41e1789d458f175a8f1f002a7.svg",
+    "static/media/YouTube.svg": "/news-React/static/media/YouTube.de78469975817dd5f81c7752e5100ac2.svg",
+    "static/media/Fire.svg": "/news-React/static/media/Fire.18926f1d4de6483947b8.svg",
+    "static/media/Telegram.svg": "/news-React/static/media/Telegram.d09249de158c9305ce02abd6aab0f740.svg",
+    "index.html": "/news-React/index.html",
+    "static/media/Facebook.svg": "/news-React/static/media/Facebook.b1382e99c1903275bae41fe7a2356069.svg",
+    "static/media/MagnifyingGlass.svg": "/news-React/static/media/MagnifyingGlass.2cf358116e15b839e421fb1b2d4fbc47.svg",
+    "static/media/dot.svg": "/news-React/static/media/dot.9bbacfce69a0e1a3289c.svg",
+    "main.669dd9bf.css.map": "/news-React/static/css/main.669dd9bf.css.map",
+    "main.c155cd71.js.map": "/news-React/static/js/main.c155cd71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.669dd9bf.css",
+    "static/js/main.c155cd71.js"
+  ]
+}
